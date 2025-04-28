@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+}
+
+.navbarItems {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbarItems li {
+    padding: 0.5rem;
+    border-radius: 4px;
+    list-style: none;
+}
+
+.navbarItems li a {
+    text-decoration: none;
+}
+
+.navbarItems a {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    align-items: center;
+    background: var(--purple-light);
+}
+
+.location a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.875rem;
+}
+
+.cart {
+    background: var(--yellow-light);
+}
+
+.cart a {
+    color: var(--yellow);
+}
