@@ -63,15 +63,17 @@ export default function Home() {
                                     <span>R$ <strong>9,90</strong></span>
                                 </div>
 
-                                <div className={styles.buttonQuantity}>
-                                    <button>-</button>
-                                    <p>1</p>
-                                    <button>+</button>
+                                <div className={styles.buttonsActions}>
+                                    <div className={styles.buttonQuantity}>
+                                        <button>-</button>
+                                        <p>1</p>
+                                        <button>+</button>
+                                    </div>
+                                    
+                                    <div className={styles.buttonAddToCart}>
+                                        <button><ShoppingCartSimple size={18} weight={'fill'} /></button>
+                                    </div> 
                                 </div>
-                                
-                                <div className={styles.buttonAddToCart}>
-                                    <button><ShoppingCartSimple size={18} weight={'fill'} /></button>
-                                </div> 
                             </div>
                         </div>
                     </div>
