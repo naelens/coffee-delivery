@@ -30,11 +30,12 @@
     background: var(--purple-light);
 }
 
-.location a {
+.location span {
     display: flex;
     align-items: center;
     gap: 4px;
     font-size: 0.875rem;
+    color: var(--purple);
 }
 
 .cart {

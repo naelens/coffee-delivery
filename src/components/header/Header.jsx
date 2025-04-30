@@ -11,9 +11,10 @@ export default function Header() {
             <nav className={styles.navbar}>
                 <ul className={styles.navbarItems}>
                     <li className={styles.location}>
-                        <a href=""><MapPin size={20} weight={'fill'} />
+                        <span>
+                            <MapPin size={20} weight={'fill'} />
                             Manaus, AM
-                        </a>
+                        </span>
                     </li>
                     <li className={styles.cart}>
                         <a href=""><ShoppingCartSimple size={20} weight={'fill'} /></a>
