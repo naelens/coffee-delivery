@@ -1,11 +1,14 @@
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 import { MapPin, ShoppingCartSimple } from 'phosphor-react'
 
 export default function Header() {
     return (
         <div className={styles.container}>
             <aside>
-                <img src="src/assets/logo.svg" alt="Logo Coffee Delivery" />
+                <Link to="pagina-inicial">
+                    <img src="src/assets/logo.svg" alt="Logo Coffee Delivery" />
+                </Link>
             </aside>
 
             <nav className={styles.navbar}>
@@ -17,7 +20,7 @@ export default function Header() {
                         </span>
                     </li>
                     <li className={styles.cart}>
-                        <a href=""><ShoppingCartSimple size={20} weight={'fill'} /></a>
+                        <Link to="/carrinho"><ShoppingCartSimple size={20} weight={'fill'}></ShoppingCartSimple></Link>
                     </li>
                 </ul>
             </nav>
