@@ -1,5 +1,6 @@
 import { Bank, CreditCard, MapPin, Money, Trash } from 'phosphor-react'
 import styles from './Cart.module.css'
+import { Link } from 'react-router-dom'
 
 export default function Cart() {
     return (
@@ -102,7 +103,7 @@ export default function Cart() {
                             <span>R$ 33,40</span>
                         </div>
 
-                        <button>Confirmar pedido</button>
+                        <Link to='/pedido-confirmado'>Confirmar pedido</Link>
                     </div>
                 </section>
             </div>
