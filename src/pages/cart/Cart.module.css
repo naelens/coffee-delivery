@@ -1,0 +1,226 @@
+.container {
+    display: flex;
+    justify-content: space-bewteen;
+    gap: 2rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.contentLeft {
+    width: 40rem;
+}
+
+h1 {
+    color: var(--base-subtitle);
+    font-size: 1.125rem;
+}
+
+header {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.iconMap {
+    color: var(--yellow-dark);
+}
+
+h2 {
+    color: var(--base-subtitle);
+    font-size: 1rem;
+}
+
+span {
+    color: var(--base-text);
+    font-size: 0.875rem;
+}
+
+.adress {
+    background: var(--base-card);
+    margin-top: 1rem;
+    padding: 2.5rem;
+    border-radius: 6px;
+}
+
+.formArea {
+    margin-top: 2rem;
+}
+
+.formField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 4px;
+}
+
+.formField input {
+    width: 16rem;
+    padding: 0.75rem;
+    background: var(--base-input);
+    border: none;
+    font-size: 0.875rem;
+}
+
+.payment {
+    background: var(--base-card);
+    margin-top: 1rem;
+    padding: 2.5rem;
+    border-radius: 6px;
+}
+
+.iconMoney {
+    color: var(--purple-dark);
+}
+
+.paymentForms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.paymentForms button {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    align-items: center;
+    width: 10rem;
+    background: var(--base-button);
+    color: var(--base-text);
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.paymentForms button:hover {
+    background: var(--purple-light);
+    outline: 1px solid var(--purple);
+    cursor: pointer;
+}
+
+.icons {
+    color: var(--purple);
+}
+
+.checkout {
+    width: 22rem;
+    background: var(--base-card);
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 6px;
+    border-radius: 6px 30px 6px 30px;
+}
+
+.item {
+    display: flex;
+    border-bottom: 1px solid var(--base-button);
+}
+
+.containerImage img {
+    width: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.itemDescription {
+    display: flex;
+    gap: 2rem;
+}
+
+.itemDescription h2 {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.itemDescription p {
+    color: var(--base-text);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buttonQuantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.buttonQuantity button {
+    width: 1.7rem;
+    height: 1.7rem;
+    border: none;
+    background: var(--base-button);
+    color: var(--purple);
+    border-radius: 6px;
+}
+
+.buttonQuantity button:hover {
+    background: var(--base-hover);
+    cursor: pointer;
+}
+
+.buttonRemover button {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem;
+    border: none;
+    background: var(--base-button);
+    color: var(--base-text);
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+.buttonRemover button:hover {
+    background: var(--base-hover);
+    cursor: pointer;
+}
+
+.iconTrash {
+    color: var(--purple);
+}
+
+.totalPrice {
+    margin-top: 1.5rem;
+}
+
+.totalPrice div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+}
+
+.totalPrice h3 {
+    color: var(--base-text);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.totalPrice button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: var(--yellow);
+    color: var(--white);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.totalPrice button:hover {
+    background: var(--yellow-dark);
+    cursor: pointer;
+}
+
+.total span {
+    color: var(--base-subtitle);
+    font-weight: 600;
+    font-size: 1rem;
+}
