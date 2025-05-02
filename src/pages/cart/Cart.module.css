@@ -201,20 +201,20 @@ span {
     font-weight: 400;
 }
 
-.totalPrice button {
+.totalPrice a {
     width: 100%;
     border: none;
     padding: 1rem;
-    margin-top: 2rem;
     background: var(--yellow);
     color: var(--white);
     border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-.totalPrice button:hover {
+.totalPrice a:hover {
     background: var(--yellow-dark);
     cursor: pointer;
 }
