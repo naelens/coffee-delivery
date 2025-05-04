@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid var(--purple);
+    border-radius: 6px 30px 6px 30px;
+    padding: 2.5rem;
+    margin-top: 2rem;
+}
+
+.orderInfo p {
+    font-size: 1rem;
+    color: var(--base-text);
+}
+
+.infoDelivery {
+    display: flex;
+    gap: 1rem;
+}
+
+.iconMap {
+    color: var(--purple-dark);
+}
+
+.infoTimePrediction {
+    display: flex;
+    gap: 1rem;
+}
+
+.iconTimer {
+    color: var(--yellow);
+}
+
+.infoPayment {
+    display: flex;
+    gap: 1rem;
+}
+
+.iconMoney {
+    color: var(--yellow-dark);
+}
