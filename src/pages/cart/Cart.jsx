@@ -88,22 +88,24 @@ export default function Cart() {
                     </div>
 
                     <div className={styles.totalPrice}>
-                        <div>
-                            <h3>Total de itens</h3>
-                            <span>R$ 9,49</span>
+                        <div className={styles.infoPrice}>
+                            <div>
+                                <h3>Total de itens</h3>
+                                <span>R$ 9,49</span>
+                            </div>
+
+                            <div>
+                                <h3>Entrega</h3>
+                                <span>R$ 3,20</span>
+                            </div>
+
+                            <div className={styles.total}>
+                                <h2>Total</h2>
+                                <p>R$ 33,40</p>
+                            </div>
                         </div>
 
-                        <div>
-                            <h3>Entrega</h3>
-                            <span>R$ 3,20</span>
-                        </div>
-
-                        <div className={styles.total}>
-                            <h2>Total</h2>
-                            <span>R$ 33,40</span>
-                        </div>
-
-                        <Link to='/pedido-confirmado'>Confirmar pedido</Link>
+                        <Link className={styles.buttonOrderConfirmed} to='/pedido-confirmado'>Confirmar pedido</Link>
                     </div>
                 </section>
             </div>

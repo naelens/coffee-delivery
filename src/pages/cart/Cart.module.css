@@ -186,22 +186,44 @@ span {
 }
 
 .totalPrice {
-    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.totalPrice div {
+.infoPrice {
+    margin-top: 1rem;
+}
+
+.infoPrice div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 0.8rem;
 }
 
-.totalPrice h3 {
+.infoPrice h3 {
     color: var(--base-text);
     font-size: 0.875rem;
     font-weight: 400;
 }
 
-.totalPrice a {
+.infoPrice h2 {
+    color: var(--base-text);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.infoPrice p {
+    color: var(--base-text);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total {
+    margin-bottom: 2rem;
+}
+
+.buttonOrderConfirmed {
     width: 100%;
     border: none;
     padding: 1rem;
@@ -212,15 +234,10 @@ span {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
 }
 
-.totalPrice a:hover {
+.buttonOrderConfirmed:hover {
     background: var(--yellow-dark);
     cursor: pointer;
-}
-
-.total span {
-    color: var(--base-subtitle);
-    font-weight: 600;
-    font-size: 1rem;
 }
