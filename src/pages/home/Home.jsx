@@ -1,5 +1,7 @@
 import { Coffee, Package, ShoppingCartSimple, Timer } from 'phosphor-react'
 import styles from './Home.module.css'
+import { useContext } from 'react'
+import { CartContext } from '../../contexts/Context';
 
 const products = [
     {
@@ -131,6 +133,8 @@ const products = [
 ]
 
 export default function Home() {
+    const { handleNewItem } = useContext(CartContext);
+
     return (
         <>
             <div className={styles.main}>
@@ -206,7 +210,7 @@ export default function Home() {
                                         </div>
                                         
                                         <div className={styles.buttonAddToCart}>
-                                            <button><ShoppingCartSimple size={18} weight={'fill'} /></button>
+                                            <button onClick={() => handleNewItem(product)}><ShoppingCartSimple size={18} weight={'fill'} /></button>
                                         </div> 
                                     </div>
                                 </div>
